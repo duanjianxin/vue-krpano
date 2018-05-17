@@ -24,7 +24,6 @@ export default {
     };
   },
   created() {},
-  // el 被新创建的 vm.$el 替换，并挂载到实例上去之后调用该钩子。
   mounted() {
     this.getconfig(this.config);
   },
@@ -91,7 +90,7 @@ export default {
                           loadscene(get(startscene), null, MERGE);
                           if(startactions !== null, startactions() );
                         </action>
-                        <scene name="scene_Sports02" title="Sports02" onstart="" thumburl="panos/Sports02.tiles/thumb.jpg" lat="" lng="" heading="">
+                        <scene name="scene_Sports02" title="Sports02" onstart="" thumburl="https://demo-1256583783.cos.ap-guangzhou.myqcloud.com/panos/Sports02.tiles/thumb.jpg" lat="" lng="" heading="">
                         <view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
                         <preview url="https://demo-1256583783.cos.ap-guangzhou.myqcloud.com/panos/Sports01.tiles/preview.jpg" />
                         <image>
