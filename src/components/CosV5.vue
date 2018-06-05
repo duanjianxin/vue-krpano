@@ -60,8 +60,8 @@ export default {
       const cos = new COS({
         getAuthorization: function(options, callback) {
           var authorization = COS.getAuthorization({
-            SecretId: "AKIDHLAk5BqoGSQ8boGNr79yZw5zf6JHcXoq",
-            SecretKey: "yiDSSEk02oLccQ0LQIv62jDSR9cpmTu5",
+            SecretId: "",
+            SecretKey: "",
             Method: options.Method,
             Key: options.Key,
             Query: options.Query,
@@ -95,4 +95,6 @@ export default {
 };
 </script>
 <style lang='scss' scoped type='text/css'>
+// AKIDHLAk5BqoGSQ8boGNr79yZw5zf6JHcXoq
+// yiDSSEk02oLccQ0LQIv62jDSR9cpmTu5
 </style>
