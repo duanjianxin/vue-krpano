@@ -9,13 +9,18 @@ Vue.use(Router);
 export default new Router({
   routes: [{
       path: "/",
-      name: "CosV5",
-      component: CosV5
+      name: "HelloWorld",
+      component: HelloWorld
     },
     {
       path: "/vr",
       name: "Vtour",
       component: Vtour
+    },
+    {
+      path: "/CosV5",
+      name: "CosV5",
+      component: CosV5
     },
   ]
 });
